@@ -11,6 +11,11 @@ const Task = ({task, handleTaskClick}) => {
   <div className="task.title" onClick={() =>handleTaskClick(task.id)}>
     {task.title}
   </div>
+
+  <div>
+    
+
+  </div>
     </div>
   );
   
