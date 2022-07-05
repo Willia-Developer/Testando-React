@@ -1,7 +1,7 @@
 .task-container{
   background-color: rgb(75, 72, 72);
-  margin: 8px 0;
-  padding:15px 20px;
+  margin: 5px 0;
+  padding:10px 20px;
   display: flex;
   border-radius: 5px;
   justify-content: space-between;
@@ -12,4 +12,16 @@
 
 .task-title {
   cursor: pointer;
+}
+.buttons-container {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.remove-task-button, .see-task-details-button {
+  background-color: #444;
+  border: none;
+  font-size: red;
+  margin: 0 5px;
 }
